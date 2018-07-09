@@ -1,3 +1,6 @@
+import { HallOfFame } from './baseClass';
+
+
 HallOfFame.prototype.getlist = function () {
 
            

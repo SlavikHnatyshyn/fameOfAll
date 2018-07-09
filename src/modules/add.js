@@ -1,3 +1,5 @@
+import { HallOfFame } from './baseClass';
+
 HallOfFame.prototype.add = function (player) {
     let isSameName = false;
     // если игрок был добавлен
