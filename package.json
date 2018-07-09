@@ -1,0 +1,13 @@
+{
+    "name": "webpack-start",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "start": "npm run webpack",
+        "webpack": "webpack -d --watch"
+    },
+    "license": "MIT",
+    "dependencies": {
+       
+    }
+}
