@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_baseClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/baseClass */ \"./src/modules/baseClass.js\");\n\r\n\r\nconst instance = new _modules_baseClass__WEBPACK_IMPORTED_MODULE_0__[\"HallOfFame\"]();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXBwLmpzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2FwcC5qcz8xMTEyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEhhbGxPZkZhbWUgfSBmcm9tICcuL21vZHVsZXMvYmFzZUNsYXNzJztcclxuXHJcbmNvbnN0IGluc3RhbmNlID0gbmV3IEhhbGxPZkZhbWUoKTsiXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_baseClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/baseClass */ \"./src/modules/baseClass.js\");\n\r\n\r\nconst instance = new _modules_baseClass__WEBPACK_IMPORTED_MODULE_0__[\"HallOfFame\"](4,[[\"Zoe\",1],[\"Yvo\",5],[\"Xin\",3],[\"Wil\",7]]);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXBwLmpzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2FwcC5qcz8xMTEyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEhhbGxPZkZhbWUgfSBmcm9tICcuL21vZHVsZXMvYmFzZUNsYXNzJztcclxuXHJcbmNvbnN0IGluc3RhbmNlID0gbmV3IEhhbGxPZkZhbWUoNCxbW1wiWm9lXCIsMV0sW1wiWXZvXCIsNV0sW1wiWGluXCIsM10sW1wiV2lsXCIsN11dKTsiXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/app.js\n");
 
 /***/ }),
 
