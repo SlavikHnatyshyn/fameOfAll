@@ -16,7 +16,7 @@ const HallOfFame = (() => {
     //     add : add().call(HallOfFame)
     // }
 
-    HallOfFame.prototype.call(this,getlist,sort,add);
+    HallOfFame.prototype.bind(null,getlist,sort,add);
 
     return HallOfFame;
 })();
