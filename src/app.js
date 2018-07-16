@@ -4,9 +4,9 @@ import { sort } from './modules/sort';
 import { add } from './modules/add';
 
 
-Module({
+const Module = {
     HallOfFame,
     getlist,
     sort,
     add
-}) 
+}; 
