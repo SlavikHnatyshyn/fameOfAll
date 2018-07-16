@@ -16,12 +16,20 @@ const HallOfFame = (() => {
     //     add : add().call(HallOfFame)
     // }
 
-    HallOfFame.prototype.bind(null,getlist,sort,add);
+    HallOfFame.prototype.getlist = function () {
+        getlist.call(this);
+    }
+    HallOfFame.prototype.sort = function () {
+        sort.call(this);
+    }
+    HallOfFame.prototype.add = function () {
+        add.call(this);
+    }
 
     return HallOfFame;
 })();
 
-export{HallOfFame};
+export { HallOfFame };
 
 
 

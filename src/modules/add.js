@@ -1,6 +1,6 @@
 
 
-HallOfFame.prototype.add = function (player) {
+const add = function (player) {
     let isSameName = false;
     // если игрок был добавлен
     if (player && this.players) {

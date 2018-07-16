@@ -1,6 +1,6 @@
 
 
-HallOfFame.prototype.getlist = function () {
+const getlist = function () {
 
     let res = [];
     this.sort();

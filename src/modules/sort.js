@@ -1,6 +1,6 @@
 
 
-HallOfFame.prototype.sort = function () {
+const sort = function () {
     this.players.sort((a, b) => {
         if (b[1] == a[1]) {
             return a[0] > b[0];
