@@ -10,11 +10,13 @@ const HallOfFame = (() => {
         this.list = this.getlist();
     }
 
-    HallOfFame.prototype = {
-        getlist : getlist().call(this,HallOfFame),
-        sort : sort().call(this,HallOfFame),
-        add : add().call(this,HallOfFame)
-    }
+    // HallOfFame.prototype = {
+    //     getlist : getlist().call(HallOfFame),
+    //     sort : sort().call(HallOfFame),
+    //     add : add().call(HallOfFame)
+    // }
+
+    HallOfFame.prototype.call(this,getlist,sort,add);
 
     return HallOfFame;
 })();
