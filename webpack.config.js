@@ -4,11 +4,11 @@ module.exports = {
         filename: './dist/bundle.js'
     },
     module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/
-            }
-        ]
+        // loaders: [
+        //     {
+        //         test: /\.js$/,
+        //         exclude: /node_modules/
+        //     }
+        // ]
     }
 };
