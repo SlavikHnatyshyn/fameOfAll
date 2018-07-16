@@ -11,9 +11,9 @@ const HallOfFame = (() => {
     }
 
     HallOfFame.prototype = {
-        getlist : getlist().call(HallOfFame),
-        sort : sort().call(HallOfFame),
-        add : add().call(HallOfFame)
+        getlist : getlist().call(this,HallOfFame),
+        sort : sort().call(this,HallOfFame),
+        add : add().call(this,HallOfFame)
     }
 
     return HallOfFame;
