@@ -1,4 +1,4 @@
-import { HallOfFame } from './baseClass';
+
 
 HallOfFame.prototype.sort = function () {
     this.players.sort((a, b) => {
