@@ -1,32 +1,50 @@
-import { getlist } from './getList';
-import { sort } from './sort';
+import { sortPlayers } from './sort';
+import { parseList } from './parseList';
+import { printPlayer } from './prints';
+import { printList } from './prints';
+import {updateList} from './updateList';
 import { add } from './add';
 
 
+
+
 const HallOfFame = (() => {
-    function HallOfFame(size, players = []) {
-        this.size = size || 5;
-        this.players = players;
-        this.list = this.getlist();
+    function HallOfFameCtor(size, players = []) {
+        this.list = [];
+        this.size = Number.isNaN(size) ? 5 : size;
+
+        if (Array.isArray(players) && players.length === 0) {
+            this.list = Array.from(new Array(this.size), () => '');
+        } else {
+            this.list = this.updateList(players);
+        }
+    }
+    
+    HallOfFameCtor.prototype.sortPlayers = function () {
+        sortPlayers.apply(this,[this.list]);
     }
 
-    // HallOfFame.prototype = {
-    //     getlist : getlist().call(HallOfFame),
-    //     sort : sort().call(HallOfFame),
-    //     add : add().call(HallOfFame)
-    // }
-
-    HallOfFame.prototype.getlist = function () {
-        getlist.call(this);
+    HallOfFameCtor.prototype.parseList = function () {
+        parseList.call(this);
     }
-    HallOfFame.prototype.sort = function () {
-        sort.call(this);
+    HallOfFameCtor.prototype.printPlayer = function () {
+        printPlayer.call(this);
     }
-    HallOfFame.prototype.add = function () {
+    HallOfFameCtor.prototype.printList = function () {
+        printList.call(this);
+    }
+    
+    HallOfFameCtor.prototype.updateList = function () {
+        updateList.apply(this,[this.list]);
+    }
+    
+    HallOfFameCtor.prototype.add = function () {
         add.call(this);
     }
+   
+    
 
-    return HallOfFame;
+    return HallOfFameCtor;
 })();
 
 export { HallOfFame };

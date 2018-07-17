@@ -1,14 +1,14 @@
 module.exports = {
     entry: './src/app.js',
     output: {
-        filename: './dist/bundle.js'
+        filename: './bundle.js'
     },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/
-            }
-        ]
-    }
+    // module: {
+    //     rules: [
+    //         {
+    //             test: /\.js$/,
+    //             exclude: /node_modules/
+    //         }
+    //     ]
+    // }
 };
