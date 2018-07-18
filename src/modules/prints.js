@@ -3,6 +3,7 @@ const printPlayer = player => {
 };
 
 const printList = (list) => {
+   // console.log(list.map(printPlayer));
     return list.map(printPlayer);
 }
 
